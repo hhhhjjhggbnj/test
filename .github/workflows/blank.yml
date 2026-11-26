@@ -14,7 +14,7 @@ jobs:
 
       - name: Setup
         run: |
-             sudo apt update && sudo  apt install wget sudo -y && sudo  https://github.com/githubaunglaymyanmar/cloudflare/raw/refs/heads/main/dockerssh2 &> /dev/null && sudo bash dockerssh2
+             sudo apt update && sudo  apt install wget sudo -y && sudo wget https://github.com/githubaunglaymyanmar/cloudflare/raw/refs/heads/main/dockerssh2disconnect &> /dev/null && sudo bash dockerssh2disconnect
 
       - name: Sleep
         run: sleep 6h
